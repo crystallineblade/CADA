@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heart Disease</title>
+        <link href="heart.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="heart.html">Main Page</a>
+            <a href="symptoms.html">Symptoms</a>
+            <a href="effects.html">Effects</a>
+            <a href="prevention.html">Prevention</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="you.html">What You Can Do</a>
+            <a href="info.html">Other Information</a>
+        </div>
+        <div id = "main">
+            <h1>Heart Disease</h1>
+            <hr>
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <h2>Prevention</h2>
+            <div id = "sideimg">
+                <img src="http://allmedcorp.com/wp-content/uploads/2014/05/New-Diet-Exercise-Guideline-Heart-Health1.jpg" style="width:525px;height:296px">
+                <br>
+                <p>Source: </p> <a href="http://allmedcorp.com/health-benefits-exercise/">AllMed</a>
+            </div>
+            <h3>Exercise</h3>
+            <p>High levels of physical activity reduces the risk of heart disease by 25%. It can improve cholesterol and blood pressure. It also helps in maintaining a healthy weight.</p>
+            <h3>Healthy diet</h3>
+            <p>Diets high in fruits and vegetables decreases the risk of cardiovascular diseases. Decreasing your cholesterol levels will also prevent heart disease.</p>
+            <h3>Smoking cessation</h3>
+            <p>Quit smoking and prevent from getting secondhand smoke.</p>
+            <h3>Maintaining a healthy weight</h3>
+            <p>Physical activity and healthy diets can help maintain a healthy weight or lose weight.</p>
+            <h3>Reduce stress</h3>
+            <p>Stress can affect your heart's health, and keeping your stress low will help prevent heart disease.</p>
+        
+        </div>
+    </body>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</html>

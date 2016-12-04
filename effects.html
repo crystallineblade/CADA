@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heart Disease</title>
+        <link href="heart.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="heart.html">Main Page</a>
+            <a href="symptoms.html">Symptoms</a>
+            <a href="effects.html">Effects</a>
+            <a href="prevention.html">Prevention</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="you.html">What You Can Do</a>
+            <a href="info.html">Other Information</a>
+        </div>
+        <div id = "main">
+            <h1>Heart Disease</h1>
+            <hr>
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <h2>Effects</h2>
+            <div id = "sideimg">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/af/42/52/af42523ecd262645b6a8d91c93d8005e.jpg">
+                <br>
+                <p>Areas of pain during an angina.</p>
+            </div>
+            <h3>Angina</h3>
+            <p> A pain in the chest that can expand to your shoulders, arms, neck, and jaw, caused by inadequate blood from your heart. Can also be described as chest discomfort, heaviness, tightness, pressure, aching, burning, or numbness. There are many types, including microvascular angina, prinzmetal's angina, stable angina, unstable angina and variant angina.</p>
+            <h3>Heart Attack</h3>
+            <p>Also called a myocardial infarction (MI), a heart attack occurs when a heart cannot receive enough oxygen. It can cause permanent damage to the heart, killing tissue that will never be healed. It can also be caused two ways: when a coronal artery spams,blocking off the artery, or when an artery becomes so full of plaque it breaks, causing platelets to come and try to fix the break. It is possible for the platelets to starve the heart of oxygen by blocking off the area around the artery. Heart attacks may cause death.</p>
+            <h3>Death</h3>
+            <p>Discontinuance of all life giving functions in a body. It is usually permanent. 💀</p>
+        </div>
+    </body>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</html>

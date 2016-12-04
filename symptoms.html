@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heart Disease</title>
+        <link href="heart.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="heart.html">Main Page</a>
+            <a href="symptoms.html">Symptoms</a>
+            <a href="effects.html">Effects</a>
+            <a href="prevention.html">Prevention</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="you.html">What You Can Do</a>
+            <a href="info.html">Other Information</a>
+        </div>
+        <div id = "main">
+            
+            <h1>Heart Disease</h1>
+            <hr>
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <div id ="sideimg">
+                <img src="https://media.consumeraffairs.com/files/cache/news/heart-attack-horiz_large.jpg" style = "width:420px;height:338px">
+                <br>
+                <p>Source: </p> <a href="https://www.consumeraffairs.com/news/shortness-of-breath-while-bending-over-may-be-a-symptom-of-worsening-heart-failure-031814.html">Consumer Affairs</a>
+            </div>
+            <h2>Symptoms</h2>
+        <ul>
+            <li>Frequent chest pains after eating, physical activity, or unpredictable times</li>
+            <li>Difficulty breathing</li>
+            <li>Cold sweat</li>
+            <li>Choking feeling</li>
+            <li>Nausea</li>
+            <li>Heart burn-like symptoms</li>
+        </ul>
+            <p>CAD may show no symptoms or signs.</p>
+        </div>
+    </body>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</html>

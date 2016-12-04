@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+html {
+    background: #333333;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display:inline;
+}
+ul {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display:inline;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    transition: background-color .5s;
+}
+
+span {
+    color:white;
+}
+
+#sideimg {
+    font-family: 'Montserrat', sans-serif;
+    background: #333333;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    float:right;
+}
+#sideimg a{
+    display: inline
+}
+
+#sideimg p {
+    display: inline
+}
+
+#img {
+    font-family: 'Montserrat', sans-serif;
+    background: #333333;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    padding: 15px;
+}
+
+#img a{
+    display: inline
+}
+
+#img p {
+    display: inline
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    font-family: 'Oswald', sans-serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    background: #333333;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

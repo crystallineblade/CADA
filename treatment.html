@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heart Disease</title>
+        <link href="heart.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="heart.html">Main Page</a>
+            <a href="symptoms.html">Symptoms</a>
+            <a href="effects.html">Effects</a>
+            <a href="prevention.html">Prevention</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="you.html">What You Can Do</a>
+            <a href="info.html">Other Information</a>
+        </div>
+        <div id = "main">
+            <h1>Heart Disease</h1>
+            <hr>
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            
+            <h2>Treatment </h2>
+            <div id="sideimg">
+                <img src="http://www.singaporemedicalclinic.com/ckfinder/userfiles/images/Arteries%20Veins/Balloon%20Angioplasty%20Singapore.jpg" style = "width:400px;height:228px">
+                <br>
+                <p>Source: </p> <a href="Singapore Medical Clinic">Singapore Medical Clinic</a>
+            </div>
+            <h3>Percutaneous Coronary Intervention (Angioplasty)</h3>
+            <p>Percutaneous coronary intervention (PCI), 
+also known as coronary angioplasty, or just angioplasty. A nonsurgical cut is made, usually at the groin or wrist, and a deflated balloon is inserted through the blood vessels until they reach the blockage. The balloon is then inflated, expanding the artery and allowing blood flow. Scaffolds may be placed to keep the vessel open. The patent is usually kept awake during the entire procedure. Some of the more serious side effects may include death, stroke,  ventricular fibrillation, heart attack, and aortic dissection.</p>
+            <h3>Coronary Artery Bypass Grafting</h3>
+            <p>Doctors take a healthy artery from somewhere else in the body and grafted to the blocked artery. It is the most common open heart surgery in the US.</p>
+            <h3>Cardiac Rehabilitation</h3>
+            <p>Cardiac rehabilitation is a medically supervised program that helps improve the health and well-being of people who have heart problems. Cardiac rehab can help you:</p>
+            <ul>
+                <li>Recover after a heart attack or heart surgery.</li>
+                <li>Prevent future hospital stays, heart problems, and death related to heart problems.</li>
+                <li>Address risk factors that can lead to coronary heart disease and other heart problems. These risk factors include high blood pressure, high blood cholesterol, overweight or obesity, diabetes, smoking, lack of physical activity, and depression and other emotional health concerns.</li>
+                <li>Adopt healthy lifestyle changes. These changes may include following a heart healthy diet, being physically active, and learning how to manage stress.</li>
+                <li>Improve your health and quality of life.</li>
+            </ul>
+            <div id = "sideimg">
+                <img src="http://www.bariatric-surgery-source.com/image-files/gastric-bypass-surgery-7.jpg" style = "width:360px;height:264px">
+                <br>
+                <p>Source: </p> <a href="http://www.bariatric-surgery-source.com/laparoscopic-gastric-bypass-surgery.html">Bariatric Surgery Source</a>
+            </div>
+            <h3>Gastric Bypass Surgery</h3>
+            <p>Gastric bypass surgery is used to treat morbid obesity, Gastric bypass surgery is a surgical procedure in which the stomach is divided into a small upper pouch and a much larger lower "remnant" pouch. The small intestine is then rearranged to connect to both. It reduces the normal stomach size by ~80%. If too much is eaten, increasing discomfort or vomiting may occur.</p>
+            <h3>Oral Medications</h3>
+            <p>Doctors may prescribe statin medications to lower or control cholesterol levels. Other medications can decrease the chance of having heart attacks, lower blood pressure, prevent blood clots, and delay the need for surgery.</p>
+        </div>
+    </body>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</html>

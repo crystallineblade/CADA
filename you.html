@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heart Disease</title>
+        <link href="heart.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="heart.html">Main Page</a>
+            <a href="symptoms.html">Symptoms</a>
+            <a href="effects.html">Effects</a>
+            <a href="prevention.html">Prevention</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="you.html">What You Can Do</a>
+            <a href="info.html">Other Information</a>
+        </div>
+        <div id = "main">
+            <h1>Heart Disease</h1>
+            <hr>
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <h2>What You Can Do</h2>
+            <h3>Awareness</h3>
+            <p>Spread awareness in your community. Even though coronary artery disease is the number one cause of death in the world, it is not widely discussed and does not have many organizations to fund research for this disease.</p>
+            <h3>Donations</h3>
+            <p>Donate to: </p><a href="http://www.heart.org/HEARTORG/">The American Heart Association</a>
+        </div>
+    </body>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</html>

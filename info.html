@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heart Disease</title>
+        <link href="heart.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="heart.html">Main Page</a>
+            <a href="symptoms.html">Symptoms</a>
+            <a href="effects.html">Effects</a>
+            <a href="prevention.html">Prevention</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="you.html">What You Can Do</a>
+            <a href="info.html">Other Information</a>
+        </div>
+        <div id = "main">
+            <h1>Heart Disease</h1>
+            <hr>
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+ 
+        <h2>Other websites</h2>
+        <ul>
+            <li><a href="http://www.heart.org/HEARTORG/Conditions/More/MyHeartandStrokeNews/Coronary-Artery-Disease---Coronary-Heart-Disease_UCM_436416_Article.jsp">The American Heart Association</a></li>
+            <li><a href="http://circ.ahajournals.org/content/early/2015/12/16/CIR.0000000000000350.full.pdf">Heart Disease and Stroke Statistics</a></li>
+            <li><a href="http://www.webmd.com/heart-disease/guide/heart-disease-coronary-artery-disease#1">WebMD</a></li>
+            <li><a href="https://medlineplus.gov/coronaryarterydisease.html">MedlinePlus</a></li>
+            <li><a href="https://www.nhlbi.nih.gov/health/health-topics/topics/cad">National Heart, Lung, and Blood Institute</a></li>
+        </ul>        </div>
+    </body>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</html>
